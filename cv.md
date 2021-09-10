@@ -25,3 +25,10 @@ if (age >= 14 && age <= 90) {
   alert('Ok');
 } else alert('=((')
 ```
+
+## EDUCATION
+Moscow Institute of Enterpreneurship and Law (MIPP) - B.A. Economics  
+2007-2012
+
+## LANGUAGE
+English A2
