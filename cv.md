@@ -9,3 +9,19 @@ Email: bareum.dev@gmail.com
 ## PROFILE
 I'm beginner Front-End developer.  
 Now I'm studing JavaScript and working on my english.
+
+## SKILLS
+
+* HTML
+* CSS
+* Basic JavaScript
+* BEM
+* Git 
+
+## SAMPLE CODE
+```javascript
+let age = prompt('Age', '');
+if (age >= 14 && age <= 90) {
+  alert('Ok');
+} else alert('=((')
+```
