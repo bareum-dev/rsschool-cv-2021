@@ -9,14 +9,14 @@
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
   color: black;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.6;
 }
 
 .cv-wrapper {
   margin: 40px auto;
-  padding: 50px 30px;
+  padding: 50px;
   width: 1000px;
   height: 1200px;
   background: linear-gradient(45deg, #eaeaea, #efefef);
@@ -29,15 +29,21 @@
   align-content: space-between;
 }
 
+
+
+/* MY-NAME */
+
 .article {
   width: calc(50% - 50px);
   height: auto;
   margin: 0 0 60px 0;
+  background-color: var(--white);
 }
 
 .my-name {
   position: relative;
   text-align: center;
+  background-color: transparent;
 }
 
 .my-name__avatar {
@@ -72,3 +78,29 @@
   font-size: 22px;
   font-weight: 400;
 }
+
+
+
+/* CONTACTS */
+
+.contacts {
+  background-color: transparent;
+  padding: 0 0 0 95px;
+}
+
+.h2-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--orange);
+  line-height: 3;
+}
+
+.contacts__item_bold {
+  font-weight: 700;
+  display: inline-block;
+}
+
+.contacts__item {
+  padding: 0 0 20px 0;
+}
+
