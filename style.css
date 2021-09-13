@@ -123,3 +123,34 @@ ul {
 
 /* FOOTER */
 
+.footer {
+  width: 60%;
+  height: 100px;
+  margin: 0 auto;
+  padding: 40px 0 0 0;
+  border-top: 1px solid lightgray;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__git-link {
+  text-decoration: none;
+  transition: transform 0.2s linear;
+}
+
+.footer__git-link:hover {
+  transform: translateY(-6px);
+}
+
+.footer__rs-link {
+  width: 120px;
+  transition: transform 0.2s linear;
+}
+
+.footer__rs-link:hover {
+  transform: translateY(-6px);
+}
