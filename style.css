@@ -1,0 +1,156 @@
+:root {
+  --orange: #FF7948;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.cv-wrapper {
+  margin: 40px auto;
+  padding: 50px;
+  width: 1000px;
+  height: 1200px;
+  background: linear-gradient(45deg, #eaeaea, #efefef);
+  box-shadow: 10px 5px 35px #929799;
+}
+
+.main {
+  width: 100%;
+  height: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-content: space-between;
+  flex-flow: column wrap;
+}
+
+
+
+/* MY-NAME */
+
+.article {
+  width: calc(50% - 20px);
+  height: auto;
+  margin: 0 0 30px 0;
+  background-color: var(--white);
+  border-radius: 15px;
+  padding: 10px 25px 20px 25px;
+}
+
+.my-name {
+  position: relative;
+  text-align: center;
+  background-color: transparent;
+  padding: 0;
+}
+
+.my-name__avatar {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url(./Avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: calc(50% - 140px);
+}
+
+.my-name__name {
+  margin: 210px 0 0 0;
+  width: 100%;
+  height: 200px;
+  background-color: var(--orange);
+  border-radius: 15px;
+}
+
+.h1-title {
+  padding: 70px 0 0 0;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.8;
+}
+
+.position {
+  color: var(--white);
+  font-size: 22px;
+  font-weight: 400;
+}
+
+
+
+/* CONTACTS */
+
+.contacts {
+  background-color: transparent;
+  padding: 0 0 0 95px;
+}
+
+.h2-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--orange);
+  line-height: 2.2;
+}
+
+.contacts__item_bold {
+  font-weight: 700;
+  display: inline-block;
+}
+
+.contacts__item {
+  padding: 0 0 20px 0;
+}
+
+
+
+/* SKILLS */
+
+ul {
+  list-style-type: square;
+  padding: 0 0 0 15px;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+  width: 60%;
+  height: 100px;
+  margin: 0 auto;
+  padding: 40px 0 0 0;
+  border-top: 1px solid lightgray;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__git-link {
+  text-decoration: none;
+  transition: transform 0.2s linear;
+}
+
+.footer__git-link:hover {
+  transform: translateY(-6px);
+}
+
+.footer__rs-link {
+  width: 120px;
+  transition: transform 0.2s linear;
+}
+
+.footer__rs-link:hover {
+  transform: translateY(-6px);
+}
